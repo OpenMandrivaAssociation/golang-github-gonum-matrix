@@ -1,0 +1,20 @@
+import:
+- package: github.com/gonum/blas
+  subpackages:
+  - native/internal/math32
+  - ''
+  - native
+  - blas64
+  version: a5abff04ad897818c377157019ce31e12a157917
+- package: github.com/gonum/lapack
+  subpackages:
+  - native
+  - lapack64
+  - ''
+  version: 0545ed9413afa1fdaf09ec54d0553e68928c477e
+- package: github.com/gonum/internal
+  subpackages:
+  - asm
+  version: 5b84ddfb9d3e72d73b8de858c97650be140935c0
+package: github.com/gonum/matrix
+

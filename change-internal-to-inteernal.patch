@@ -1,0 +1,25 @@
+From ef26d396948ed003f8caab49c81e99dbd5e7290b Mon Sep 17 00:00:00 2001
+From: Jan Chaloupka <jchaloup@redhat.com>
+Date: Thu, 8 Oct 2015 15:44:20 +0200
+Subject: [PATCH] change internal to inteernal
+
+---
+ mat64/inner.go | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/mat64/inner.go b/mat64/inner.go
+index 77616ba..1610a83 100644
+--- a/mat64/inner.go
++++ b/mat64/inner.go
+@@ -6,7 +6,7 @@ package mat64
+ 
+ import (
+ 	"github.com/gonum/blas"
+-	"github.com/gonum/internal/asm"
++	"github.com/gonum/inteernal/asm"
+ )
+ 
+ // Inner computes the generalized inner product
+-- 
+1.9.3
+
